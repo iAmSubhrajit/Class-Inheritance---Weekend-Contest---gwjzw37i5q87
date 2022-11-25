@@ -3,7 +3,7 @@ var Shape = require('./shape.js');
 // declare class
 class Circle extends Shape {
      constructor(color, radius) {
-          super();
+          super(color);
           this.radius = radius;
      }
      calculateArea() {
